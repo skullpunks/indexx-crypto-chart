@@ -1,0 +1,11 @@
+.bg-secondary2 {
+    --tw-bg-opacity: 1;
+    
+    background-color: #09ac09;
+}
+
+.text-primary2 {
+    --tw-text-opacity: 1;
+    color: #09ac09;
+}
+
