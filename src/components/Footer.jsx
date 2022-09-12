@@ -26,7 +26,7 @@ function Footer() {
             <li className='my-3'>How It Works</li>
             <li className='my-3'>NFT</li>
             <li className='my-3'>Transparency</li>
-            <li className='my-3'>Sign In</li>
+            {/* <li className='my-3'>Sign In</li> */}
           </ul>
         </div>
       </div>

@@ -30,7 +30,13 @@ useEffect(()=>{
         ${price}
         </h2>
         <div className='flex items-center justify-center m-auto'>
-            <button className='bg-secondary2 rounded-3xl p-3 inline-block align-middle shadow-lg w-full'>
+        <button 
+            type="button"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href='https://inxc.indexx.ai/';
+              }}
+            className='bg-secondary2 rounded-3xl p-3 inline-block align-middle shadow-lg w-full'>
             Buy Indexx Crypto Token
             </button>
         </div>
